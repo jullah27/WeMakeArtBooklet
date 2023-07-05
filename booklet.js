@@ -26,10 +26,10 @@ function setup() {
   backwards=createButton('backwards');
   backwards.position(100, window.innerHeight-100);
   backwards.mousePressed(flipBackward);
-  firstPage = loadImage('assets/example1.jpg')
-  secondPage=loadImage('assets/example2.jpg')
-  thirdPage=loadImage('assets/example3.jpg')
-  forthPage=loadImage('assets/example4.jpg')
+  firstPage = loadImage('Assets/example1.jpg')
+  secondPage=loadImage('Assets/example2.jpg')
+  thirdPage=loadImage('Assets/example3.jpg')
+  forthPage=loadImage('Assets/example4.jpg')
   fadeA=255;
   //firstPage.resize(width,height);
  // firstPage.loadPixels();
